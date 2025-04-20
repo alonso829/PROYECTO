@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Actuales</title>
+    <link rel="stylesheet" href="noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-newspaper"></i>
+                <h1>Noticias<span>Actuales</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="#">Nacional</a></li>
+                    <li><a href="#">Internacional</a></li>
+                    <li><a href="#">Tecnología</a></li>
+                    <li><a href="#">Cultura</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <span id="username-display"></span>
+                <button id="logout-btn"><i class="fas fa-sign-out-alt"></i></button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <article class="main-news">
+                <img src="imagen2.jpeg" alt="Noticia principal">
+				
+                <div class="news-content">
+                    <span class="category">Destacada</span>
+                    <h2>Descubrimiento científico revoluciona la medicina moderna</h2>
+                    <p>Un equipo internacional de investigadores ha desarrollado un nuevo tratamiento que podría curar enfermedades hasta ahora incurables...</p>
+                    <a href="https://www.mutualmedica.com/post/mutualmedica/los-7-descubrimientos-medicos-mas-importantes-de-la-historia" class="read-more">Leer más <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </article>
+        </section>
+
+        <section class="news-section">
+            <h2>Últimas Noticias</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <img src="imagen1.webp" alt="Noticia 1">
+                    <div class="card-content">
+                        <span class="category">Política</span>
+                        <h3>Gobierno anuncia nuevas medidas económicas</h3>
+                        <p>El presidente presentó un paquete de reformas para estimular el crecimiento en sectores clave...</p>
+                        <div class="news-footer">
+                            <span class="date"><i class="far fa-clock"></i> Hace 2 horas</span>
+                            <a href="https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/111124-sanchez-plan-respuesta-dana.aspx" class="read-more">Leer</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="imagen3.webp" alt="Noticia 2">
+                    <div class="card-content">
+                        <span class="category">Tecnología</span>
+                        <h3>Nueva generación de smartphones presenta innovaciones</h3>
+                        <p>Las principales marcas han revelado sus últimos modelos con características revolucionarias...</p>
+                        <div class="news-footer">
+                            <span class="date"><i class="far fa-clock"></i> Hace 5 horas</span>
+                            <a href="https://www.expansion.com/fueradeserie/tecno/2025/03/14/67d00e1d468aeb904f8b4579.html" class="read-more">Leer</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="imagen4.webp" alt="Noticia 3">
+                    <div class="card-content">
+                        <span class="category">Deportes</span>
+                        <h3>Equipo se clasifico para las semifinales de la Nations Leafue</h3>
+                        <p>Con una victoria histórica, el seleccionado se aseguró un lugar en la gran semifinal del campeonato ante Francia...</p>
+                        <div class="news-footer">
+                            <span class="date"><i class="far fa-clock"></i> Ayer</span>
+                            <a href="https://elpais.com/deportes/eurocopa-futbol/2024-07-14/espana-inglaterra-el-partido-de-la-final-la-eurocopa-en-imagenes.html" class="read-more">Leer</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <img src="imagen5.webp" alt="Noticia 4">
+                    <div class="card-content">
+                        <span class="category">Cultura</span>
+                        <h3>Festival de cine anuncia su programación 2023</h3>
+                        <p>El evento cultural más importante del país reveló las películas que competirán este año...</p>
+                        <div class="news-footer">
+                            <span class="date"><i class="far fa-clock"></i> Ayer</span>
+                            <a href="https://www.dodmagazine.es/festivales-cine-espana/" class="read-more">Leer</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>Recibe las noticias en tu correo</h2>
+            <form>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Noticias Actuales</h3>
+                    <p>El medio digital más confiable para estar informado las 24 horas.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> contacto@noticiasactuales.com</p>
+                    <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Noticias Actuales. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mostrar nombre de usuario
+        const currentUser = JSON.parse(localStorage.getItem('currentUser'));
+        if (currentUser) {
+            document.getElementById('username-display').textContent = currentUser.name;
+        } else {
+            window.location.href = 'formulario.html';
+        }
+
+        // Cerrar sesión
+        document.getElementById('logout-btn').addEventListener('click', function() {
+            localStorage.removeItem('currentUser');
+            window.location.href = 'formulario.html';
+        });
+    </script>
+</body>
+</html>
